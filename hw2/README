@@ -1,0 +1,38 @@
+
+HW2: Lorenz Attractor
+Course: CSCI5229
+Author: Kathy Grimes
+Description:
+  Code will reproduce lorenz attractor graph using Line Strip
+  
+  To run, open directory of Makefile and hw2.c:	
+    make clean
+    make hw2
+    ./hw2
+
+  Graph can be modified interactively using the following keys:
+     s/S,b/B,r/R: increment/decrement s, r, or b values by .5
+             z/Z: zoom inword/outward by 5
+               i: return to inital settings
+               p: toggle pause idle spinning
+               a: toggle axis
+   up/down_arrow: increment/decrement angle - rotate around z axis (please make sure spinning is paused to use this option)
+left/right_arrow: increment/decrement angle - rotate around y axis (please make sure spinning is paused to use this option)
+ 
+
+One interesting thing I learned about the Lorenz attractor 
+is the large variation of 'interesting objects' that can be made by shifting variables, 
+I was able to make a iteration where it looked like a swinging light bulb.
+This could be useful in terms of making a scary themed graphic :)
+I never dealt with the lorenz attractor in my previous courses, but the number of 
+interesting shapes it could make could be very useful for this course.
+
+I do have a question about my display invalid operation errors I was getting.  
+I made sure to switch my glMatricMode from GL_PROJECTION to GL_MODELVIEW, and
+that the glBegin always had an glEnd so it would not interfere with the redisplay.
+However, I almost always still get invalid operation for my display when I try to 
+resize just one side instead of a corner.  I also get the error when I move my
+window.  Do you have a suggestion after looking at my code?  I'm have partially 
+used the class example code provided for resizing, but maybe because I added a
+zoom function, I have caused a sort of interference?  
+Any thoughts would be appreciated.  Thank you.
