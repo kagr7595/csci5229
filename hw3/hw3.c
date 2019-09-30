@@ -776,7 +776,7 @@ int main(int argc,char* argv[])
    glutInitWindowSize(cur_width,cur_height);
    glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_DOUBLE);
    //  Create the window
-   glutCreateWindow("Objects");
+   glutCreateWindow("HW3 Scenes in 3D - CSCI5229 - Kathy Grimes");
    //  Tell GLUT to call "idle" when there is nothing else to do
    glutIdleFunc(idle);
    //  Tell GLUT to call "display" when the scene should be drawn
