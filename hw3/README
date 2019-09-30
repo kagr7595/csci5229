@@ -1,0 +1,23 @@
+
+HW3: Scene in 3D
+Course: CSCI5229
+Author: Kathy Grimes
+Description: A program that creates a multiple instances of a cat object in different locations
+             using multiple other objects such as cuboids/spheroids/triangles/quads
+             Inside of the cat object are legs, torso, head, tail, ears, and eyes objects
+             that have been manipulated by translate/rotate/scaling
+     Code Initially was from Example 8 class code
+                z/Z: zoom inword/outward by .5
+             Arrows: move around axis
+                  p: pause flying kitty
+                  m: change mixed kitty coloring/size
+                  a: toggle axis
+  
+  
+  To run, open directory of Makefile and hw3.c:	
+    make clean
+    make hw3
+    ./hw3
+
+Approximate time:  About 16 hours.  About 8 hours were spent trying to create an apple which I never got right
+                   before I moved on to the cat idea.
