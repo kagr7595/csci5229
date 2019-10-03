@@ -1,0 +1,32 @@
+/*
+ *  HW4: Projections
+ *  Course: CSCI5229
+ *  Author: Kathy Grimes
+ *  Description:  This program is built upon hwk3 and uses a variety examples including ex9.
+ *                Also needed to peruse the web for some help with first person.  
+ *                I saw some other ways first person was implemented but this version made the most sense to me.
+ *                This homework requires three view modes: 
+ *                      Overhead orthogonal, Overhead perspective, and First person
+ *    Please use the following keys to manipulate the program during run
+ *                 1: toggles between Orthogonal, Perspective, and First Person
+ *              in Orthogonal or Perspective...
+ *                 o: overhead view (y-axis view)  
+ *              in First Person...   
+ *           5,6,7,8: forward,backward,right,left
+ *              in all views
+ *               f/F: change field_of_view
+ *            Arrows: move angles of ph and th (for all perspectives)
+ *                 p: pause flying kitty
+ *                 m: change mixed kitty coloring/size
+ *                 a: toggle axis
+ *                 i: go back to initial state values (in case you get off course in the viewing screen)
+ */
+  To run, open directory of Makefile and hw4.c:	
+    make clean
+    make hw4
+    ./hw4
+
+Approximate time:  About 16 hours.  I had so much trouble getting some of the modes to work because of 
+                   stupid coding issues and that caused me to delay for a couple of hours.  The first 
+                   person took the longest as I couldn't seem to figure out what was going on in order 
+                   for it to move correctly.  
