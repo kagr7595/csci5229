@@ -1,0 +1,45 @@
+/*
+ *  HW5: Lighting
+ *  Course: CSCI5229
+ *  Author: Kathy Grimes
+ *  Description:  This program is built upon hwk4 and uses a variety examples including ex13.
+ *                This homework's purpose is experience with determining normal vectors for lighting calculations. 
+ *                For debugging and grading, light should be able to be stopped and moved
+ *
+ *    Please use the following keys to manipulate the program during run
+ *                 1: toggles between Orthogonal, Perspective, and First Person
+ *              in Orthogonal *                 
+ *       PgUp/PgDown: Decrease/increase dim
+ *              in Orthogonal or Perspective...
+ *                 o: overhead view (y-axis view)  
+ *              in First Person...   
+ *           5,6,7,8: forward,backward,right,left
+ *              in First Person or Perspective
+ *               f/F: change field_of_view
+ *              in all views
+ *            Arrows: move angles of ph and th (for all perspectives)
+ *                 p: pause flying kitty AND light ball
+ *                 m: change mixed kitty coloring/size
+ *                 x: toggle axis
+ *                 i: go back to initial state values (in case you get off course in the viewing screen)
+ *     Lighting in all views
+ *                []: Lower/raise light
+ *               q/Q: Lower/raise light distance from (0,0,0)
+ *               a/A: Decrease/increase ambient light
+ *               d/D: Decrease/increase diffuse light
+ *               s/S: Decrease/increase specular light
+ *               e/E: Decrease/increase emitted light
+ *               n/N: Decrease/increase shininess
+ *                 l: Toggles lighting
+ *                F1: Toggle Smooth/Flat lighting
+ *                F2: Toggle localized lighing
+ *                 
+ */
+  To run, open directory of Makefile and hw5.c:	
+    make clean
+    make hw5
+    ./hw5
+
+Approximate time:  About 14 hours.  The ears for the kitty I am still not sure are completely right.  
+                   I created a function to calculate the normal however I had to play around with the 
+                   vertice order in order for the lighting to occur on the correct side.
