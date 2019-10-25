@@ -1275,7 +1275,7 @@ int main(int argc,char* argv[])
    glutInitWindowSize(cur_width,cur_height);
    glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH | GLUT_DOUBLE);
    //  Create the window
-   glutCreateWindow("HW6 Textures - CSCI5229 - Kathy Grimes");
+   glutCreateWindow("HW5 Lighting - CSCI5229 - Kathy Grimes");
    //  Tell GLUT to call "idle" when there is nothing else to do
    glutIdleFunc(idle);
    //  Tell GLUT to call "display" when the scene should be drawn
