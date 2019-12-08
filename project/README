@@ -1,0 +1,52 @@
+/*
+ *  HW6: Textures
+ *  Course: CSCI5229
+ *  Author: Kathy Grimes
+ *  Description:  This program is built upon hwk5 and uses a variety examples including ex15/16/18.
+ *                This homework's purpose is to experience texture use with lighting and three dimensional viewing. 
+ *                No pyramids, GLU/GLUT objects
+ *
+ *    Please use the following keys to manipulate the program during run
+ *                 1: toggles between Orthogonal, Perspective, and First Person
+ *              in Orthogonal *                 
+ *       PgUp/PgDown: Decrease/increase dim
+ *              in Orthogonal or Perspective...
+ *                 o: overhead view (y-axis view)  
+ *              in First Person...   
+ *           5,6,7,8: forward,backward,right,left
+ *              in First Person or Perspective
+ *               f/F: change field_of_view
+ *              in all views
+ *            Arrows: move angles of ph and th (for all perspectives)
+ *                 p: pause flying kitty AND light ball
+ *                 m: change mixed kitty coloring/size
+ *                 x: toggle axis
+ *                 i: go back to initial state values (in case you get off course in the viewing screen)
+ *     Lighting in all views
+ *                []: Lower/raise light
+ *               q/Q: Lower/raise light distance from (0,0,0)
+ *               a/A: Decrease/increase ambient light
+ *               d/D: Decrease/increase diffuse light
+ *               s/S: Decrease/increase specular light
+ *               e/E: Decrease/increase emitted light
+ *               n/N: Decrease/increase shininess
+ *                 l: Toggles lighting
+ *                F1: Toggle Smooth/Flat lighting
+ *                F2: Toggle localized lighing
+ *     Textures in all views
+ *                 t: Toggle between two sets of textures for the cats and stage(I really like the example crate image)
+ *                 T: Toggle Texture mode (replace/modulate)
+ *                 
+ */
+  To run, open directory where makefile lives:	
+    make clean
+    make
+    ./hw6
+
+Approximate time:  About 12 hours.  Unfortunately I was not able to spend as much time as I needed.  
+                   I was hoping to do something with the eyes but ran out of time this week.  I enjoyed
+                   changing the pictures and making the kitties have different graphics on each side, but 
+                   changed it in the end to make it look for real rather than 'special'. I even added my own
+                   paint picture with 'mrow' (something that is a bit of an inside joke in my family as I love
+                   kitties too much).  I think I spent more time trying to figure out what graphics I wanted
+                   rather than on the code.
