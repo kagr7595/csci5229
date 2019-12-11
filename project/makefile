@@ -24,7 +24,7 @@ CLEAN=rm -f $(EXE) *.o *.a
 endif
 
 # Dependencies
-hw6.o: hw6.c CSCIx229.h
+fproject.o: fproject.c CSCIx229.h
 fatal.o: fatal.c CSCIx229.h
 loadtexbmp.o: loadtexbmp.c CSCIx229.h
 errcheck.o: errcheck.c CSCIx229.h
@@ -41,7 +41,7 @@ CSCIx229.a:fatal.o loadtexbmp.o errcheck.o object.o
 	g++ -c $(CFLG) $<
 
 #  Link
-hw6:hw6.o CSCIx229.a
+fproject:fproject.o CSCIx229.a
 	gcc -O3 -o $@ $^   $(LIBS)
 
 #  Clean

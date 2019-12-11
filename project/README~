@@ -82,7 +82,7 @@
  */
   To run, open directory where makefile lives:	
     make clean
-    make fproject
+    make
     ./fproject
 
 Approximate time:  Probably 100 hours.  I got stuck in so many places, I feel that I was debugging for 70% of the time.  
